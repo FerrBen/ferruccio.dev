@@ -2,6 +2,11 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import Link from 'next/link'
+import { BsArrowRight } from 'react-icons/bs'
+import { HiDownload } from 'react-icons/hi'
+import { BsLinkedin } from 'react-icons/bs'
+import { FaGithubSquare } from 'react-icons/fa'
 
 export default function Intro() {
   return (
@@ -44,12 +49,50 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className='font-bold'>Hello, I'm Ferruccio.</span> I'm a{' '}
-        <span className='font-bold'>full-stack developer</span> with{' '}
+        <span className='font-bold'>Hi, I'm Ferruccio.</span> I'm a{' '}
+        <span className='font-bold'>Software Engineer</span> with about{' '}
         <span className='font-bold'>8 years</span> of experience. I enjoy
-        building <span className='italic'>sites & apps</span>. My focus is{' '}
+        building <span className='italic'>sites & apps</span>. My main focus is{' '}
         <span className='underline'>React (Next.js)</span>.
       </motion.h1>
+      <motion.div
+        className='flex flex-col sm:flex-row items-center justify-center gap-4 px-4 font-medium'
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.2,
+        }}
+      >
+        <Link
+          href='#contact'
+          className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full ontline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 trasition'
+        >
+          Get in touch{' '}
+          <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />{' '}
+        </Link>
+        <a
+          className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full ontline-none focus:scale-110 hover:scale-110 active:scale-105 trasition cursor-pointer border border-black/10'
+          href='/public/CV.pdf'
+          download
+        >
+          Download CV
+          <HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
+        </a>
+        <a
+          className='bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 trasition cursor-pointer border border-black/10'
+          href='https://www.linkedin.com/in/ferrucciobenito/'
+          target='_blank'
+        >
+          <BsLinkedin />
+        </a>
+        <a
+          className='bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full text-[1.25rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 trasition cursor-pointer border border-black/10'
+          href='https://github.com/FerrBen'
+          target='_blank'
+        >
+          <FaGithubSquare />
+        </a>
+      </motion.div>
     </section>
   )
 }
