@@ -40,7 +40,7 @@ export default function Intro() {
             }}
             className='absolute text-4xl bottom-0 right-0'
           >
-            👋
+            👾
           </motion.span>
         </div>
       </div>
