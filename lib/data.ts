@@ -35,24 +35,32 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated from University of Toronto',
-    location: 'Toronto, ON',
+    title: 'Graduated Business School',
+    location: 'Zurich, ZH',
     description:
-      'Graduated with a Bachelor of Science in Computer Science and Mathematics.',
+      'Graduated my business school with a focus on marketing and finance.',
     icon: React.createElement(LuGraduationCap),
     date: '2021',
   },
   {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
+    title: 'Clerk Backoffice / Content-Manager ',
+    location: 'Rüti, ZH',
     description:
       'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
     icon: React.createElement(CgWorkAlt),
     date: '2019 - 2021',
   },
   {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
+    title: 'Software Engineer',
+    location: 'St. Margrethen, SG',
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: '2021 - present',
+  },
+  {
+    title: ' Senior Front-end Developer ',
+    location: 'Altstetten, ZH',
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
