@@ -12,6 +12,19 @@ import { useSectionInView } from '@/lib/hooks'
 
 export default function Intro() {
   const { ref } = useSectionInView('Home', 0.5)
+  console.log(
+    '\n' +
+      'Hi there, fellow developer! Thanks for visiting.\n' +
+      'If you’re an aspiring bootstrapper, startup-er,\n' +
+      'or business owner, make sure you check out this         ("`-’-/").___..--’’"`-._\n' +
+      'section of the blog for tips and inspiration!            `6_ 6  )   `-.  (     ).`-.__.‘)\n' +
+      '                                                         (_Y_.)’  ._   )  `._ `. ``-..-’\n' +
+      'http://www.abeautifulsite.net/tags/business            _..`--’_..-_/  /--’_.’ ,’\n' +
+      '                                                      (il),-’‘  (li),’  ((!.-‘\n' +
+      'I’d love to hear what you think!\n' +
+      '\n' +
+      '— Cory\n'
+  )
 
   return (
     <section
