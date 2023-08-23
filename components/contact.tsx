@@ -30,11 +30,15 @@ export default function Contact() {
         <input
           className='h-14 px-4 rounded-lg borderBlack'
           type='email'
+          maxLength={100}
+          required
           placeholder='Your email'
         />
         <textarea
           className='h-52 my-3 p-4 rounded-lg borderBlack'
           placeholder='Your message'
+          maxLength={500}
+          required
         />
         <div className='flex items-end justify-end'>
           <button
