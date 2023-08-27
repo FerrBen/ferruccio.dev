@@ -36,35 +36,35 @@ export const links = [
 export const experiencesData = [
   {
     title: 'Graduated Business School',
-    location: 'Zurich, ZH',
+    location: 'Bénédict - Zürich, ZH',
     description:
       'Graduated my business school with a focus on marketing and finance.',
     icon: React.createElement(LuGraduationCap),
-    date: '2021',
+    date: '2008 - 2011',
   },
   {
     title: 'Clerk Backoffice / Content-Manager ',
-    location: 'Rüti, ZH',
+    location: 'Embru-Werke AG - Rüti, ZH',
     description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+      'Administration and accounting tasks in the sales team. Implementation of new products for the E-Commerce section with Sitecore (content management .NET-CMS-Platform) Presentations of new products for events and investors. Planning and managing of events and trade fairs.',
     icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
+    date: '2012 - 2018',
   },
   {
     title: 'Software Engineer',
-    location: 'St. Margrethen, SG',
+    location: 'Mondipal AG - St. Margrethen, SG',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      'Consulting and support for customers in the implementation and delivery of projects. Development in HTML, CSS (SASS), JavaScript, React, Next.js Redux, Node, Express, MongoDB and AWS Lambda. Planning of over 60+ web applications from the first development phase to roll-out. Contributed to each project delivery phase (analysis,development,test,ops) in different roles. Estimated, performed feasibility analysis and forecast risks, and planned the delivery for new requirements. ',
     icon: React.createElement(FaReact),
-    date: '2021 - present',
+    date: '2018 - 2021',
   },
   {
     title: ' Senior Front-end Developer ',
-    location: 'Altstetten, ZH',
+    location: 'Ringier Axel Springer - Altstetten, ZH',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      'Managing, maintaining, and developing a monorepo with 8 publications such as Handelszeitung, Beobachter, Cash, Schweizer Illustrierte, Illustré, Gault Millau, PME, and Landliebe. Development in React, Next.js, Node.js, JavaScript and Typescript. Transition planning from React to Next.js.Multiple automations for a better development and deployment experience.',
     icon: React.createElement(FaReact),
-    date: '2021 - present',
+    date: '2022 - 2023',
   },
 ] as const
 
