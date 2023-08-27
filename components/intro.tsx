@@ -110,14 +110,14 @@ export default function Intro() {
           href='https://www.linkedin.com/in/ferrucciobenito/'
           target='_blank'
         >
-          <BsLinkedin />
+          <BsLinkedin aria-lable='Link to Linkedin' />
         </a>
         <a
           className='bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full text-[1.25rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 trasition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
           href='https://github.com/FerrBen'
           target='_blank'
         >
-          <FaGithubSquare />
+          <FaGithubSquare aria-lable='Link to Github' />
         </a>
       </motion.div>
     </section>
